@@ -1,0 +1,160 @@
+(footprint "TO-220-3_EXTENDED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
+	(tags "TO-220-3 Vertical RM 2.54mm")
+	(property "Reference" "REF**"
+		(at -0.3724 -2.4178 0)
+		(layer "F.SilkS")
+		(uuid "3f0a5e9b-b757-4744-a823-d37e13f88a6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BS250"
+		(at 2.54 2.2 0)
+		(layer "F.Fab")
+		(uuid "a8a6e2ad-0aee-41ff-9a47-471388980cbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e072286c-43b4-4a11-81a1-27410fe8f372")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b48e14d-85a2-41a7-8fd2-477c14911581")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 10.584 1.8048)
+		(end -5.3516 -9.1404)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1baec2f0-0cc3-48f7-8b29-25e2743117e7")
+	)
+	(fp_line
+		(start -2.46 -1.88)
+		(end 7.54 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d9ec911-4f20-4a70-a176-cd94bbe9160b")
+	)
+	(fp_line
+		(start 0.69 -3.15)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21c0d172-51ba-4221-a6df-94fbe3a6146c")
+	)
+	(fp_line
+		(start 4.39 -3.15)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ebffecf-b151-4d2e-bd16-c1d38c43b461")
+	)
+	(fp_rect
+		(start -2.46 -3.15)
+		(end 7.54 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dea479cd-a9bf-4d6a-b543-c810457abc77")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -0.95 0)
+		(layer "F.Fab")
+		(uuid "bdb79fbd-bfa0-4020-97a1-4c043013011d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 1.9812 5.1308)
+		(drill 1.1
+			(offset 0.0254 -1.7018)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b74d23aa-f008-4a30-8192-3040258ae9be")
+	)
+	(pad "2" thru_hole rect
+		(at 2.54 0)
+		(size 1.6256 5.2672)
+		(drill 1.1
+			(offset 0 -1.6336)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "936ddc90-6616-4b3b-8134-b34dc08bce0f")
+	)
+	(pad "3" thru_hole rect
+		(at 5.08 0 270)
+		(size 1.8669 5.1308)
+		(drill 1.1
+			(offset -0.01905 -1.7018)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2733fd84-4f90-4197-96d5-934115d33aac")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
